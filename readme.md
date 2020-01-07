@@ -3,12 +3,12 @@
 An API back-end application, a web front-end application, and a common library for shared data transfer objects using .NET Standard
 
 **Built With**
-Microsoft Visual Studio Code
-ASP.Net Core 3.1 WebApi - SwaggerUI
-ASP.Net Core 3.1 WebApp
-Entitiy Framework Core 3.1
-ASP.Net Core Identity UI 3.1
-SQLLite
+ - Microsoft Visual Studio Code
+ - ASP.Net Core 3.1 WebApi - SwaggerUI
+ - ASP.Net Core 3.1 WebApp
+ - Entitiy Framework Core 3.1
+ - ASP.Net Core Identity UI 3.1
+ - SQLLite
 
 **ASP.NET Core - App Building Workshop**
 Reference; [https://github.com/dotnet-presentations/aspnetcore-app-workshop](https://github.com/dotnet-presentations/aspnetcore-app-workshop)
