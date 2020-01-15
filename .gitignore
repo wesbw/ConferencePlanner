@@ -13,16 +13,16 @@
 *.userprefs
 
 # Build results
-**/[Dd]ebug/
-**/[Dd]ebugPublic/
-**/[Rr]elease/
-**/[Rr]eleases/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
 x64/
 x86/
 bld/
-**/[Bb]in/
-**/[Oo]bj/
-**/[Ll]og/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -194,7 +194,6 @@ ClientBin/
 ~$*
 *~
 *.dbmdl
-*.db
 *.dbproj.schemaview
 *.jfm
 *.pfx
@@ -292,8 +291,8 @@ __pycache__/
 
 # Visual Studio code
 .vscode/*
-.vs/*
 !.vscode/extensions.json
 
 # MacOS
 .DS_Store
+debug.log
