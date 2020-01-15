@@ -20588,7 +20588,7 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 703
+    "CSharpLanguageVersion": 800
   },
   "RootNamespace": "frontend",
   "Documents": [
@@ -20600,6 +20600,21 @@
     {
       "FilePath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/Pages/Session.cshtml",
       "TargetPath": "Pages/Session.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/Pages/Shared/_CookieConsentPartial.cshtml",
+      "TargetPath": "Pages/Shared/_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/Pages/Welcome.cshtml",
+      "TargetPath": "Pages/Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/Pages/Shared/_AgendaPartial.cshtml",
+      "TargetPath": "Pages/Shared/_AgendaPartial.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20625,6 +20640,16 @@
     {
       "FilePath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/Pages/Speaker.cshtml",
       "TargetPath": "Pages/Speaker.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/Pages/MyAgenda.cshtml",
+      "TargetPath": "Pages/MyAgenda.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/Areas/Identity/Pages/Account/Logout.cshtml",
+      "TargetPath": "Areas/Identity/Pages/Account/Logout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20665,11 +20690,6 @@
     {
       "FilePath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/Pages/Admin/EditSession.cshtml",
       "TargetPath": "Pages/Admin/EditSession.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/Pages/SearchTerm.cshtml",
-      "TargetPath": "Pages/SearchTerm.cshtml",
       "FileKind": "mvc"
     },
     {

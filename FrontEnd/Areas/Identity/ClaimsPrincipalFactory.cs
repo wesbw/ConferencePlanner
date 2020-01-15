@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -27,11 +27,15 @@ namespace FrontEnd.Areas.Identity
             if (user.IsAdmin)
             {
                 identity.MakeAdmin();
-                
+            }
+
+            var attendee = await _apiClient.GetAttendeeAsync(user.UserName);
+            if (attendee != null)
+            {
+                identity.MakeAttendee();
             }
 
             return identity;
         }
     }
-
 }

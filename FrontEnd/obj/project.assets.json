@@ -3346,7 +3346,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "ConferenceDTO/1.0.0": {
+      "conferencedto/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3356,10 +3356,10 @@
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
-          "bin/placeholder/ConferenceDTO.dll": {}
+          "bin/placeholder/conferencedto.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ConferenceDTO.dll": {}
+          "bin/placeholder/conferencedto.dll": {}
         }
       }
     }
@@ -10138,15 +10138,14 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "ConferenceDTO/1.0.0": {
+    "conferencedto/1.0.0": {
       "type": "project",
-      "path": "../ConferenceDTO/ConferenceDTO.csproj",
-      "msbuildProject": "../ConferenceDTO/ConferenceDTO.csproj"
+      "path": "../conferencedto/conferencedto.csproj",
+      "msbuildProject": "../conferencedto/conferencedto.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ConferenceDTO >= 1.0.0",
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.0",
@@ -10157,7 +10156,8 @@
       "System.Data.SQLite >= 1.0.112",
       "System.Data.SqlClient >= 4.8.0",
       "System.Net.Http >= 4.3.4",
-      "System.Net.Http.Formatting >= 4.0.20710"
+      "System.Net.Http.Formatting >= 4.0.20710",
+      "conferencedto >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10166,11 +10166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/frontend.csproj",
-      "projectName": "frontend",
-      "projectPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/frontend.csproj",
+      "projectUniqueName": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/FrontEnd.csproj",
+      "projectName": "FrontEnd",
+      "projectPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/FrontEnd.csproj",
       "packagesPath": "/Users/e.sevgibinici/.nuget/packages/",
-      "outputPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/Frontend/obj/",
+      "outputPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/e.sevgibinici/.nuget/NuGet/NuGet.Config"
@@ -10184,8 +10184,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/ConferenceDTO/ConferenceDTO.csproj": {
-              "projectPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/ConferenceDTO/ConferenceDTO.csproj"
+            "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/conferencedto/conferencedto.csproj": {
+              "projectPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/conferencedto/conferencedto.csproj"
             }
           }
         }

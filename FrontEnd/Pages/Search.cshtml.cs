@@ -2,16 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using ConferenceDTO;
 using FrontEnd.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace FrontEnd.Pages
 {
     public class SearchModel : PageModel
     {
-         private readonly IApiClient _apiClient;
+        private readonly IApiClient _apiClient;
 
         public SearchModel(IApiClient apiClient)
         {
@@ -21,6 +21,7 @@ namespace FrontEnd.Pages
         public string Term { get; set; }
 
         public List<SearchResult> SearchResults { get; set; }
+
         public async Task OnGetAsync(string term)
         {
             Term = term;

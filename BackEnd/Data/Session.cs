@@ -14,5 +14,6 @@ namespace BackEnd.Data
         public Track Track { get; set; }
 
         public virtual ICollection<SessionTag> SessionTags { get; set; }
+        public virtual ICollection<SessionAttendee> SessionAttendees { get; set; }
     }
 }

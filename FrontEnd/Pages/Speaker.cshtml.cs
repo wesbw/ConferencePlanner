@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using ConferenceDTO;
 using FrontEnd.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace FrontEnd.Pages
 {
@@ -19,6 +19,7 @@ namespace FrontEnd.Pages
         }
 
         public SpeakerResponse Speaker { get; set; }
+
         public async Task<IActionResult> OnGet(int id)
         {
             Speaker = await _apiClient.GetSpeakerAsync(id);

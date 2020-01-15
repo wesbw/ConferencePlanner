@@ -16,13 +16,12 @@ namespace FrontEnd.Pages
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
-        private readonly ILogger<ErrorModel> _logger;
+        private readonly ILogger<ErrorModel> logger;
 
-        public ErrorModel(ILogger<ErrorModel> logger)
+        public ErrorModel(ILogger<ErrorModel> _logger)
         {
-            _logger = logger;
+            logger = _logger;
         }
-
         public void OnGet()
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;

@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -22,9 +22,8 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "frontend/1.0.0": {
+      "FrontEnd/1.0.0": {
         "dependencies": {
-          "ConferenceDTO": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.0",
           "Microsoft.AspNetCore.Identity.UI": "3.1.0",
@@ -36,6 +35,7 @@
           "System.Data.SqlClient": "4.8.0",
           "System.Net.Http": "4.3.4",
           "System.Net.Http.Formatting": "4.0.20710",
+          "conferencedto": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -320,10 +320,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "frontend.dll": {}
+          "FrontEnd.dll": {}
         },
         "compile": {
-          "frontend.dll": {}
+          "FrontEnd.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
@@ -2619,7 +2619,7 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "ConferenceDTO/1.0.0": {
+      "conferencedto/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "3.1.0",
@@ -2627,10 +2627,10 @@
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "runtime": {
-          "ConferenceDTO.dll": {}
+          "conferencedto.dll": {}
         },
         "compile": {
-          "ConferenceDTO.dll": {}
+          "conferencedto.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery.Reference/3.1.0.0": {
@@ -4328,7 +4328,7 @@
     }
   },
   "libraries": {
-    "frontend/1.0.0": {
+    "FrontEnd/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -5810,7 +5810,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "ConferenceDTO/1.0.0": {
+    "conferencedto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

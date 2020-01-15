@@ -135,5 +135,17 @@ namespace BackEnd
 
             return NoContent();
         }
+        [HttpGet("{username}/sessions")]
+        public async Task<ActionResult<List<SessionResponse>>> GetSessions(string username)
+        {
+            var sessions = await _db.Sessions.AsNoTracking()
+                                                .Include(s => s.Track)
+                                                .Include(s => s.SessionSpeakers)
+                                                    .ThenInclude(ss => ss.Speaker)
+                                                .Where(s => s.SessionAttendees.Any(sa => sa.Attendee.UserName == username))
+                                                .Select(m => m.MapSessionResponse())
+                                                .ToListAsync();
+            return sessions;
+        }
     }
 }

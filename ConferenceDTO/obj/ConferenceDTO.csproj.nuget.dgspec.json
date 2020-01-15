@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/ConferenceDTO/ConferenceDTO.csproj": {}
+    "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/conferencedto/conferencedto.csproj": {}
   },
   "projects": {
-    "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/ConferenceDTO/ConferenceDTO.csproj": {
+    "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/conferencedto/conferencedto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/ConferenceDTO/ConferenceDTO.csproj",
-        "projectName": "ConferenceDTO",
-        "projectPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/ConferenceDTO/ConferenceDTO.csproj",
+        "projectUniqueName": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/conferencedto/conferencedto.csproj",
+        "projectName": "conferencedto",
+        "projectPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/conferencedto/conferencedto.csproj",
         "packagesPath": "/Users/e.sevgibinici/.nuget/packages/",
-        "outputPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/ConferenceDTO/obj/",
+        "outputPath": "/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/conferencedto/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/e.sevgibinici/.nuget/NuGet/NuGet.Config"

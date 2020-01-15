@@ -342,7 +342,6 @@
 /Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
 /Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
 /Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Search.cshtml.g.cs
-/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/SearchTerm.cshtml.g.cs
 /Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Session.cshtml.g.cs
 /Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs
@@ -357,3 +356,8 @@
 /Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/frontend.dll
 /Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/frontend.pdb
 /Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/EditSession.cshtml.g.cs
+/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Welcome.cshtml.g.cs
+/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Logout.cshtml.g.cs
+/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/MyAgenda.cshtml.g.cs
+/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_AgendaPartial.cshtml.g.cs
+/Users/e.sevgibinici/ProjectsVSC/ConferencePlanner/FrontEnd/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_CookieConsentPartial.cshtml.g.cs

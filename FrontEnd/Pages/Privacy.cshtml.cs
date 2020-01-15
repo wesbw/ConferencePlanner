@@ -10,13 +10,12 @@ namespace FrontEnd.Pages
 {
     public class PrivacyModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<PrivacyModel> logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public PrivacyModel(ILogger<PrivacyModel> _logger)
         {
-            _logger = logger;
+            logger = _logger;
         }
-
         public void OnGet()
         {
         }
