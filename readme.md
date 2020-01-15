@@ -20,7 +20,7 @@ Reference; [https://github.com/dotnet-presentations/aspnetcore-app-workshop](htt
  - [x] Session #2 - Finish the back-end API and EF model, refactor into view models
  - [x] Session #3 - Add front-end, render agenda, set up front-end models
  - [x] Session #4 - Add authentication, add admin policy, allow editing sessions, users can sign-in with Identity, custom auth tag helper
- - [ ] Session #5 - Add user association and personal agenda
+ - [x] Session #5 - Add user association and personal agenda
  - [ ] Session #6 - Deployment, Azure and other production environments, configuring environments, diagnostics
  - [ ] Session #7 - Challenges
  - [ ] Session #8 - SPA front-end
